@@ -5,6 +5,8 @@ This code is for a modified version of the tracker described in the paper:
 "Enhancing Linear Programming with Motion Modeling for Multi-target Tracking", 
 N McLaughlin, J Martinez Del Rincon, P Miller - (WACV), 2015
 
+If you use this code please cite the above paper.
+
 The tracking solution is computed over several iterations.
 	- In the first iteration we link detections based on distance, time and 
 	  appearance.  
