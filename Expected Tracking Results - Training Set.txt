@@ -1,0 +1,128 @@
+>> MOTChallengeHarness
+
+Results with Tracklet Linking on (i.e. maxIters = 2)
+
+Evaluating ... 
+	... TUD-Stadtmitte
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 69.9  88.0  0.61| 10   5   5   0|  110   348   15    9|  59.1  66.4  60.3 
+
+	... TUD-Campus
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 42.6  94.4  0.13|  8   0   7   1|    9   206    6    5|  38.4  72.6  39.9 
+
+	... PETS09-S2L1
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 93.4  90.5  0.57| 19  18   1   0|  456   308   78   51|  81.9  73.1  83.5 
+
+	... ETH-Bahnhof
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 51.3  86.5  0.61|223  36  76 111|  614  3737   74   89|  42.3  74.2  43.2 
+
+	... ETH-Sunnyday
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 37.8  89.2  0.25| 30   3  11  16|   87  1182   20   24|  32.2  77.5  33.2 
+
+	... ETH-Pedcross2
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+  8.5  88.0  0.09|151   1  17 133|   78  6186   13   14|   7.1  74.4   7.3 
+
+	... ADL-Rundle-6
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 42.4  82.0  0.89| 24   1  18   5|  468  2884  100   84|  31.1  73.1  33.0 
+
+	... ADL-Rundle-8
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 31.2  77.8  0.92| 28   2  12  14|  602  4669   85   78|  21.0  74.5  22.3 
+
+	... KITTI-13
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 36.5  73.5  0.36| 42   1  21  20|  122   590   11    5|  22.2  73.1  23.2 
+
+	... KITTI-17
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 54.2  96.4  0.11|  9   0   9   0|   16   358    9    9|  51.0  72.9  52.0 
+
+	... Venice-2
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 45.8  62.9  3.21| 26   4  16   6| 1928  3871  126  105|  17.0  74.1  18.8 
+
+
+ ********************* Your Benchmark Results (2D) ***********************
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 43.6  80.7  0.82|570  71 193 306| 4490 24339  537  473|  31.9  73.6  33.2 
+
+
+Results with Tracklet Linking off (i.e. maxIters = 1)
+
+Evaluating ... 
+    ... TUD-Stadtmitte
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 67.5  89.1  0.53| 10   5   5   0|   95   376   18   13|  57.7  66.5  59.1 
+
+    ... TUD-Campus
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 38.4  97.2  0.06|  8   0   7   1|    4   221    5    5|  35.9  72.1  37.1 
+
+    ... PETS09-S2L1
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 92.3  90.5  0.57| 19  18   1   0|  452   356  103   73|  80.4  73.1  82.6 
+
+    ... ETH-Bahnhof
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 50.5  86.7  0.60|223  34  78 111|  596  3795   91   97|  41.6  74.3  42.7 
+
+    ... ETH-Sunnyday
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 36.3  89.2  0.24| 30   2  12  16|   84  1210   24   28|  30.7  77.6  31.9 
+
+    ... ETH-Pedcross2
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+  8.2  87.6  0.09|151   1  17 133|   78  6206   14   15|   6.8  74.4   7.0 
+
+    ... ADL-Rundle-6
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 41.6  82.8  0.82| 24   0  18   6|  432  2924  110   91|  30.8  73.1  33.0 
+
+    ... ADL-Rundle-8
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 30.4  78.9  0.84| 28   2  12  14|  550  4722   94   80|  20.9  74.5  22.2 
+
+    ... KITTI-13
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 36.5  75.5  0.32| 42   1  21  20|  110   590   10    5|  23.6  73.1  24.5 
+
+    ... KITTI-17
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 53.6  96.5  0.10|  9   0   9   0|   15   363    8    8|  50.6  73.1  51.5 
+
+    ... Venice-2
+*** 2D (Bounding Box overlap) ***
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 44.9  65.0  2.88| 26   3  16   7| 1727  3935  145  120|  18.7  74.0  20.7 
+
+
+ ********************* Your Benchmark Results (2D) ***********************
+ Rcll  Prcn   FAR| GT  MT  PT  ML|   FP    FN  IDs   FM|  MOTA  MOTP MOTAL 
+ 42.7  81.7  0.75|570  66 196 308| 4143 24698  622  535|  31.7  73.6  33.1 
