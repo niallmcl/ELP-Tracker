@@ -29,7 +29,7 @@ clear vars
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % NOTE - MODIFY FOLLOWING  TWO LINES TO POINT TO DEVKIT & SEQUENCES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-devkitRoot = fullfile('..','devkit','devkit');     %get the devkit from the MOT challenge website for tracker evaluation purposes
+devkitRoot = fullfile('..','devkit', 'devkit');     %get the devkit from the MOT challenge website for tracker evaluation purposes
 trackerResourcesRoot = fullfile('..','2DMOT2015'); %set to the directory containing the images and detections for MOT challenge 
 
 addpath(genpath(devkitRoot));        
@@ -49,7 +49,7 @@ else
 end
 
 %make a directory to hold the output from the tracker
-resultsDir = fullfile('.','tracker output',['resultsRun_' int2str(uniqueRunNum)]);
+resultsDir = fullfile('.','tracker output',['resultsRun_' int2str(uniqueRunNum) filesep]);
 if  ~exist(resultsDir, 'dir')
     mkdir(resultsDir);
 end
@@ -81,4 +81,4 @@ end
 
 %use the MOT challenge script to evaluate the tracker on all sequences
 benchmarkDir = [rootDir '/'];
-allMets = evaluateTracking(fullfile(devkitRoot,'seqmaps','c2-train.txt'), resultsDir, benchmarkDir);  
+allMets = evaluateTracking(fullfile(devkitRoot,'seqmaps','c2-train.txt'), resultsDir, benchmarkDir, benchmarkDir);  
